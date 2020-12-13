@@ -1,0 +1,30 @@
+{
+  "name": "Robusta_Testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open"
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.8.3"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.2.0",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "cypress-wait-until": "^1.7.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/integration/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cucumber_report",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

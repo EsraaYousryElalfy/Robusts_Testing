@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Robusta Testing Challenging",
+    "line": 1,
+    "id": "robusta-testing-challenging",
+    "tags": [],
+    "uri": "RobustaTask.feature",
+    "elements": [
+      {
+        "id": "robusta-testing-challenging;search-for-ice",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search for Ice",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "user Search for \"Fresh Ice Box 8 liter\"",
+            "result": {
+              "status": "passed",
+              "duration": 5094000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "select first item in the list",
+            "result": {
+              "status": "passed",
+              "duration": 17133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "valid price displayed before and after discount",
+            "result": {
+              "status": "passed",
+              "duration": 1838000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "add \"3\" items to cart",
+            "result": {
+              "status": "passed",
+              "duration": 2122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user go to cart page",
+            "result": {
+              "status": "passed",
+              "duration": 4117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "remove added items from cart",
+            "result": {
+              "status": "passed",
+              "duration": 208000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
