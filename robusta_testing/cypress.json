@@ -1,0 +1,6 @@
+{
+    "env": {
+        "URL": "https://fresh.com.eg/"
+      },
+      "testFiles": "**/*.{feature,features}"
+}
