@@ -19,7 +19,7 @@
 
 ## About The Project
 
-This project for Robusta-Testing-challenging for testing https://fresh.com.eg by Cypress
+This project for Robusta-Testing-challenging to test https://fresh.com.eg by Cypress
 
 ### Built With
 The challenge built by:
