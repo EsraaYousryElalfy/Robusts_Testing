@@ -40,8 +40,7 @@ To get a local copy up and running follow these simple example steps.
 * Clone the project
 * openn project in Visual studio code
 * In Terminal run `npm install`
-* In Terminal run ` npx cypress open`
-* click on the test case `RobustaTask.feature`
+* In Terminal run `npm run test`
 * In Terminal run `node report.js`
 * expoerted report will be located in this path `./Robusta_Testing/robusta_testing/cucumber_report/html`
 
