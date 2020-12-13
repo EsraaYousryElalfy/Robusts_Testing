@@ -4,7 +4,7 @@
   <a href="https://github.com/EsraaYousryElalfy/Robusts_Testing">
     <img src="CypressLogo.jpg" alt="Logo">
   </a>
-# Robusts_Testing
+  <h3 align="center">Robusta Testing</h3>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
